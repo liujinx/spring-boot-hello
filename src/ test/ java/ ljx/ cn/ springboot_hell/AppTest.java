@@ -17,4 +17,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @GetMapping("/hello2")
+	public String hello2(){
+		if(true){
+			System.out.println("");	
+		}
+		
+		return "Hello SpringBoot2";
+	}
 }
