@@ -11,4 +11,18 @@ public class HelloControler {
 	public String hello(){
 		return "Hello SpringBoot";
 	}
+	
+	@GetMapping("/hello1")
+	public String hello1(){
+		if(true)System.out.println("");	
+		
+		return "Hello SpringBoot1";
+	}
+	
+	@GetMapping("/hello2")
+	public String hello2(){
+		if(true)System.out.println("");	
+		
+		return "Hello SpringBoot2";
+	}
 }
