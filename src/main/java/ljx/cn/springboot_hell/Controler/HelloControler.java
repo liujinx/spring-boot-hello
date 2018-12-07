@@ -25,4 +25,18 @@ public class HelloControler {
 		
 		return "Hello SpringBoot2";
 	}
+
+	public static void main(String[] args) {
+		System.out.println("");
+	}
+	
+
+	
+	@GetMapping("/hello4")
+	public String hello4(){
+		return "Hello SpringBoot";
+	}
+	
+	
 }
+
